@@ -18,6 +18,9 @@ import '@feizheng/next-fetch-with-proxy';
 //DOCS here!
 ```
 
+## resources
+- https://github.com/TooTallNate/node-proxy-agent
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-fetch-with-proxy/blob/master/LICENSE.txt).
 
