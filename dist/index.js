@@ -2,8 +2,8 @@
  * name: @jswork/next-fetch-with-proxy
  * description: Fetch with proxy options.
  * homepage: https://github.com/afeiship/next-fetch-with-proxy
- * version: 1.0.0
- * date: 2020-11-20 22:38:26
+ * version: 1.0.1
+ * date: 2020-11-20 22:39:44
  * license: MIT
  */
 
