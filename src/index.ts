@@ -1,6 +1,6 @@
 type ModuleFile = Record<string, any>;
 
-export const viteRequireContext = (inModuleFiles: ModuleFile) => {
+export default (inModuleFiles: ModuleFile) => {
   const keys = () => Object.keys(inModuleFiles).map((key) => key.split('/').pop())
   const contextFn = (inName: string) => {
     for (const moduleFilesKey in inModuleFiles) {
