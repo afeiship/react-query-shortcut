@@ -15,7 +15,9 @@ npm install @jswork/vite-require-context
 ```js
 import viteRequireContext from '@jswork/vite-require-context';
 
-// usage goes here.
+const moduleFiles = import.meta.glob('./shared/stores/*.ts', { eager: true });
+const context = viteRequireContext(moduleFiles);
+console.log('moduleFiles: ', moduleFiles, context);
 ```
 
 ## license
