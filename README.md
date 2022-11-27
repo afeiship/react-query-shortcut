@@ -1,5 +1,5 @@
-# next-fetch-with-proxy
-> Fetch with proxy options.
+# vite-require-context
+> Require context for vite.
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -7,24 +7,28 @@
 [![download][download-image]][download-url]
 
 ## installation
-```bash
-npm install -S @jswork/next-fetch-with-proxy
+```shell
+npm install @jswork/vite-require-context
 ```
 
-## resources
-- https://github.com/TooTallNate/node-proxy-agent
+## usage
+```js
+import viteRequireContext from '@jswork/vite-require-context';
+
+// usage goes here.
+```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/next-fetch-with-proxy/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/vite-require-context/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/next-fetch-with-proxy
-[version-url]: https://npmjs.org/package/@jswork/next-fetch-with-proxy
+[version-image]: https://img.shields.io/npm/v/@jswork/vite-require-context
+[version-url]: https://npmjs.org/package/@jswork/vite-require-context
 
-[license-image]: https://img.shields.io/npm/l/@jswork/next-fetch-with-proxy
-[license-url]: https://github.com/afeiship/next-fetch-with-proxy/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/vite-require-context
+[license-url]: https://github.com/afeiship/vite-require-context/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-fetch-with-proxy
-[size-url]: https://github.com/afeiship/next-fetch-with-proxy/blob/master/dist/next-fetch-with-proxy.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/vite-require-context
+[size-url]: https://github.com/afeiship/vite-require-context/blob/master/dist/vite-require-context.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/next-fetch-with-proxy
-[download-url]: https://www.npmjs.com/package/@jswork/next-fetch-with-proxy
+[download-image]: https://img.shields.io/npm/dm/@jswork/vite-require-context
+[download-url]: https://www.npmjs.com/package/@jswork/vite-require-context
