@@ -37,7 +37,8 @@ nx.$client = queryClient;
 
 ## Usage
 
-### useNxQuery
+**useQuery**
+
 Simplified query hook for fetching data:
 
 ```typescript
@@ -50,7 +51,8 @@ const { data, isLoading } = nx.useQuery({
 });
 ```
 
-### useNxMutation
+**useMutation**
+
 Streamlined mutation hook for data updates:
 
 ```typescript
@@ -67,9 +69,8 @@ const { mutate } = nx.useMutation({
 });
 ```
 
-### Data Management Utilities
+**getQueryData**
 
-#### getQueryData
 Retrieve cached query data:
 
 ```typescript
@@ -80,7 +81,8 @@ const userData = nx.getQueryData('users/list');
 const nestedData = nx.getQueryData(['parent', 'child']);
 ```
 
-#### invalidateQuery
+**invalidateQuery**
+
 Invalidate and refetch queries:
 
 ```typescript
