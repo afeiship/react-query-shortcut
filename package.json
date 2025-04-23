@@ -1,6 +1,6 @@
 {
   "name": "react-query-shortcut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight wrapper for TanStack Query that simplifies API integration with a unified interface.",
   "type": "module",
   "npmClient": "pnpm",
@@ -43,8 +43,9 @@
   },
   "homepage": "https://js.work",
   "keywords": [
-    "react-query-shortcut",
-    "number",
-    "num"
+    "nx",
+    "query",
+    "react",
+    "tanstack"
   ]
 }

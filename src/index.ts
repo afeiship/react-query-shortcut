@@ -1,6 +1,6 @@
-import { useMutation, useQuery } from '@tanstack/react-query';
+import { useMutation, useQuery, UseMutationResult, UseQueryResult } from '@tanstack/react-query';
 
-const useNxQuery = (inKey: string | AnyObject, inOptions?: any) => {
+const useNxQuery = (inKey: string | AnyObject, inOptions?: any): UseQueryResult<any, Error> => {
   const opts =
     typeof inKey === 'object'
       ? inKey
@@ -12,7 +12,7 @@ const useNxQuery = (inKey: string | AnyObject, inOptions?: any) => {
   return useQuery<any>(opts);
 };
 
-const useNxMutation = (inKey: string | AnyObject, inOptions?) => {
+const useNxMutation = (inKey: string | AnyObject, inOptions?): UseMutationResult<any, Error, any, any> => {
   const opts =
     typeof inKey === 'object'
       ? inKey
