@@ -1,6 +1,6 @@
 {
-  "name": "react-query-shortcut",
-  "version": "1.0.2",
+  "name": "@jswork/react-query-shortcut",
+  "version": "1.0.0",
   "description": "A lightweight wrapper for TanStack Query that simplifies API integration with a unified interface.",
   "type": "module",
   "npmClient": "pnpm",
