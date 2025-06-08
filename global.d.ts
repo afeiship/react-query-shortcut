@@ -4,5 +4,5 @@ interface NxStatic {
   getQueryData: (queryKey: string | any[]) => any;
   useQuery: (key: string | AnyObject, opts?) => NxUseQueryResult;
   useMutation: (key: string | AnyObject, opts?) => any;
-  invalidateQuery: (key: string | string[]) => any;
+  invalidateQuery: (key: any | any[]) => any;
 }
